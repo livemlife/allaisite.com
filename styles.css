@@ -1,0 +1,98 @@
+/* 全局样式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* 背景颜色 */
+    color: #333; /* 文字颜色 */
+}
+
+/* 页头样式 */
+header {
+    position: relative;
+    text-align: center;
+    color: white; /* 文本颜色 */
+}
+
+header img {
+    width: 100%; /* 图片宽度占满屏幕 */
+    height: 300px; /* 固定高度 */
+    object-fit: cover; /* 图片裁剪以适应宽高 */
+}
+
+header .intro-text {
+    position: absolute; /* 使文字覆盖图片 */
+    top: 50%; /* 垂直居中 */
+    left: 50%; /* 水平居中 */
+    transform: translate(-50%, -50%); /* 偏移回实际中心点 */
+}
+
+header .intro-text h1 {
+    font-size: 3rem; /* 主标题字体大小 */
+    margin: 0;
+}
+
+header .intro-text p {
+    font-size: 1.2rem; /* 副标题字体大小 */
+    margin: 10px 0 0;
+}
+
+/* 分类部分样式 */
+.category {
+    padding: 20px;
+}
+
+.category h2 {
+    font-size: 1.8rem; /* 分类标题字体大小 */
+    margin: 0 0 10px; /* 上下外边距 */
+    text-align: left;
+}
+
+.category .underline {
+    width: 100%; /* 黑线宽度 */
+    height: 2px; /* 黑线高度 */
+    background-color: #333; /* 黑线颜色 */
+    margin-bottom: 20px; /* 与内容的间距 */
+}
+
+/* 工具卡片布局 */
+.websites {
+    display: flex; /* 横向排列 */
+    flex-wrap: wrap; /* 自动换行 */
+    gap: 20px; /* 卡片间距 */
+}
+
+.website {
+    width: 250px; /* 卡片宽度 */
+    background: white; /* 卡片背景色 */
+    border: 1px solid #ddd; /* 边框颜色 */
+    border-radius: 8px; /* 圆角 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+    overflow: hidden; /* 隐藏溢出的内容 */
+    text-align: center; /* 文本居中 */
+    transition: transform 0.3s; /* 鼠标悬停动画 */
+}
+
+.website:hover {
+    transform: scale(1.05); /* 鼠标悬停时放大效果 */
+}
+
+.website img {
+    width: 100%; /* 图片宽度占满卡片 */
+    height: 150px; /* 图片高度固定 */
+    object-fit: cover; /* 裁剪图片以适应尺寸 */
+}
+
+.website .info {
+    padding: 15px; /* 卡片内边距 */
+}
+
+.website h3 {
+    font-size: 1.2rem; /* 工具名称字体大小 */
+    margin: 0 0 10px;
+}
+
+.website p {
+    font-size: 0.9rem; /* 工具描述字体大小 */
+    color: #666; /* 字体颜色 */
+    margin: 0;
+}
