@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI工具集</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <img src="your-background-image.jpg" alt="AI tools background">
+    <div class="intro-text">
+        <h1>AI工具探索</h1>
+        <p>发现最适合您的智能工具，让技术服务于您！</p>
+    </div>
+</header>
+
+<div class="category">
+    <h2>AI工具分类</h2>
+    <div class="underline"></div>
+    <div class="websites">
+        <div class="website">
+            <img src="tool1.jpg" alt="Tool 1">
+            <div class="info">
+                <h3>Tool 1</h3>
+                <p>一个高效的AI写作助手。</p>
+            </div>
+        </div>
+        <div class="website">
+            <img src="tool2.jpg" alt="Tool 2">
+            <div class="info">
+                <h3>Tool 2</h3>
+                <p>帮助您轻松创建图片的AI工具。</p>
+            </div>
+        </div>
+        <div class="website">
+            <img src="tool3.jpg" alt="Tool 3">
+            <div class="info">
+                <h3>Tool 3</h3>
+                <p>为您提供语音转文字服务的利器。</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
